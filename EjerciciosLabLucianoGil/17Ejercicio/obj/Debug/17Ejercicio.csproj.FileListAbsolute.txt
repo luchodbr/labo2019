@@ -1,0 +1,14 @@
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\bin\Debug\17Ejercicio.exe.config
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\bin\Debug\17Ejercicio.exe
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\bin\Debug\17Ejercicio.pdb
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\obj\Debug\17Ejercicio.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\obj\Debug\17Ejercicio.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\obj\Debug\17Ejercicio.exe
+C:\Users\alumno\Desktop\EjerciciosLab2\17Ejercicio\obj\Debug\17Ejercicio.pdb
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\bin\Debug\17Ejercicio.exe.config
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\bin\Debug\17Ejercicio.exe
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\bin\Debug\17Ejercicio.pdb
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\obj\Debug\17Ejercicio.csprojAssemblyReference.cache
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\obj\Debug\17Ejercicio.csproj.CoreCompileInputs.cache
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\obj\Debug\17Ejercicio.exe
+D:\VisualStudio\EjerciciosLabLucianoGil\17Ejercicio\obj\Debug\17Ejercicio.pdb

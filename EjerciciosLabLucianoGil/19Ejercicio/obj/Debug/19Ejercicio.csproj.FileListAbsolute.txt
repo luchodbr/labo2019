@@ -1,0 +1,7 @@
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\bin\Debug\19Ejercicio.exe.config
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\bin\Debug\19Ejercicio.exe
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\bin\Debug\19Ejercicio.pdb
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\obj\Debug\19Ejercicio.csproj.CoreCompileInputs.cache
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\obj\Debug\19Ejercicio.exe
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\obj\Debug\19Ejercicio.pdb
+D:\VisualStudio\EjerciciosLabLucianoGil\19Ejercicio\obj\Debug\19Ejercicio.csprojAssemblyReference.cache
