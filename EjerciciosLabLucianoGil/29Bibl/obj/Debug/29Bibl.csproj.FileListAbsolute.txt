@@ -1,0 +1,6 @@
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Bibl\bin\Debug\29Bibl.dll
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Bibl\bin\Debug\29Bibl.pdb
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Bibl\obj\Debug\29Bibl.csprojAssemblyReference.cache
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Bibl\obj\Debug\29Bibl.csproj.CoreCompileInputs.cache
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Bibl\obj\Debug\29Bibl.dll
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Bibl\obj\Debug\29Bibl.pdb

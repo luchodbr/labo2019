@@ -1,0 +1,10 @@
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\bin\Debug\29Program.exe.config
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\bin\Debug\29Program.exe
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\bin\Debug\29Program.pdb
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\bin\Debug\29Bibl.dll
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\bin\Debug\29Bibl.pdb
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\obj\Debug\29Program.csprojAssemblyReference.cache
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\obj\Debug\29Program.csproj.CoreCompileInputs.cache
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\obj\Debug\29Program.csproj.CopyComplete
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\obj\Debug\29Program.exe
+D:\luciano gil lab2\labo2019\EjerciciosLabLucianoGil\29Program\obj\Debug\29Program.pdb
