@@ -23,7 +23,8 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.Mostrar());
             sb.Append("\n");
-            sb.Append(costo.ToString() + " - ");
+            sb.Append("Costo llamada");
+            sb.Append(this.CostoLlamada.ToString() + " - ");
             return sb.ToString();
 
         }

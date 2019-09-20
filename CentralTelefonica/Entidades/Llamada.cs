@@ -32,12 +32,11 @@ namespace Entidades
             return sb.ToString();
         }
 
-        //protected int OrdenarPorLlamada(Llamada l1, Llamada l2)
-        //{
-        //    if (l1.duracion > l2.duracion)
-        //        return true;
-        //    return false;
-        //}
+        public static int OrdenarPorLlamada(Llamada l1, Llamada l2)
+        {
+            
+            return l1.Duracion.CompareTo(l2.Duracion);
+        }
 
         public enum TipoLlamada { Local,Provincial,Todas}
 
