@@ -55,10 +55,8 @@ namespace Entidades
 
             foreach (Llamada l in this.Llamadas)
             {
-                if (l is Local)
-                    sb.AppendLine("Llamada Local \n " + ((Local)l).Mostrar());
-                if (l is Provincial)
-                    sb.AppendLine("Llamada Local \n " + ((Provincial)l).Mostrar());
+                    sb.AppendLine("Llamada \n " + (l).ToString());
+ 
             }
 
             return sb.ToString();
@@ -66,6 +64,32 @@ namespace Entidades
         public void OrdenarLlamadas()
         {
             this.listaDeLlamadas.Sort(Llamada.OrdenarPorLlamada);
+        }
+        protected void AgregarLlamada(Llamada nuevaLlamada)
+        {
+            this.listaDeLlamadas.Add(nuevaLlamada);
+        }
+        public static bool operator ==(Centralita c, Llamada l)
+        {
+            foreach (Llamada ele in c.Llamadas)
+            {
+                if (l == ele)
+                    return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Centralita c, Llamada l)
+        {
+            return !(c == l);
+        }
+        public static bool operator +(Centralita c, Llamada l)
+        {
+            if (c != l)
+            {
+                c.AgregarLlamada(l);
+                return true;
+            }
+            return false;
         }
     }
 }

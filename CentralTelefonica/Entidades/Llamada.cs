@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Llamada
+    public abstract class Llamada
     {
         protected float duracion;
         public float Duracion { get { return this.duracion; } }
@@ -21,7 +21,7 @@ namespace Entidades
             this.nroDestino = nrDes;
             this.nroOrigen = nrOr;
         }
-        public string Mostrar()
+        public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(this.Duracion.ToString() + " - ");
@@ -32,6 +32,12 @@ namespace Entidades
             return sb.ToString();
         }
 
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+
+        public abstract float CostoLlamada { get; }
         public static int OrdenarPorLlamada(Llamada l1, Llamada l2)
         {
             
@@ -39,6 +45,19 @@ namespace Entidades
         }
 
         public enum TipoLlamada { Local,Provincial,Todas}
+
+
+        public static bool operator ==(Llamada l1, Llamada l2)
+        {
+            return (l1.Equals(l2) && l1.NroOrigen == l2.NroOrigen && l1.NroDestino == l2.nroDestino);
+        }
+        public static bool operator !=(Llamada l1, Llamada l2)
+        {
+            return !(l1 == l2);
+        }
+        
+
+
 
     }
 }

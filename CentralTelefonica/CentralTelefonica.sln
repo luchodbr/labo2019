@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "Centr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{157B1B34-9035-4810-ADAF-F3B7397CA4E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmCentralita", "FrmCentralita\FrmCentralita.csproj", "{FD1EE528-A462-4C7F-8DF7-C53D04A2F7A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{157B1B34-9035-4810-ADAF-F3B7397CA4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{157B1B34-9035-4810-ADAF-F3B7397CA4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{157B1B34-9035-4810-ADAF-F3B7397CA4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1EE528-A462-4C7F-8DF7-C53D04A2F7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1EE528-A462-4C7F-8DF7-C53D04A2F7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1EE528-A462-4C7F-8DF7-C53D04A2F7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1EE528-A462-4C7F-8DF7-C53D04A2F7A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
