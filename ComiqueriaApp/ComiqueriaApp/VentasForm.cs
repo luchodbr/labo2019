@@ -13,11 +13,48 @@ namespace ComiqueriaApp
     public partial class VentasForm : Form
     {
         Producto producto;
-        public VentasForm(Producto p)
+        Comiqueria comiqueria;
+        public VentasForm(Producto p,Comiqueria comiqueria)
         {
             InitializeComponent();
-            producto = p;
+            this.producto = p;
+            this.comiqueria = comiqueria;
 
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VentasForm_Load(object sender, EventArgs e)
+        {
+            lblPrecioFinal.Text = ("Precio Final $" + this.producto.Precio);
+            lblDescripcion.Text = this.producto.Descripcion;
+        }
+
+        private void NumericUpDownCantidad_ValueChanged(object sender, EventArgs e)
+        { 
+            
+            lblPrecioFinal.Text =("Precio Final $"+((double)numericUpDownCantidad.Value * this.producto.Precio).ToString());
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BtnVender_Click(object sender, EventArgs e)
+        {
+            if (numericUpDownCantidad.Value <= this.producto.Stock)
+            {
+                this.comiqueria.Vender(this.producto, (int)numericUpDownCantidad.Value);
+                this.DialogResult = DialogResult.OK;
+            }
+            else
+            {
+                MessageBox.Show("Error en cantidad de productos", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

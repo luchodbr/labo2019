@@ -28,49 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblDescripcion = new System.Windows.Forms.Label();
+            this.lblCantidad = new System.Windows.Forms.Label();
+            this.numericUpDownCantidad = new System.Windows.Forms.NumericUpDown();
+            this.lblPrecioFinal = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnVender = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCantidad)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblDescripcion
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescripcion.Location = new System.Drawing.Point(35, 29);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(74, 13);
+            this.lblDescripcion.TabIndex = 0;
+            this.lblDescripcion.Text = "Descripcion";
             // 
-            // label2
+            // lblCantidad
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblCantidad.AutoSize = true;
+            this.lblCantidad.Location = new System.Drawing.Point(35, 84);
+            this.lblCantidad.Name = "lblCantidad";
+            this.lblCantidad.Size = new System.Drawing.Size(49, 13);
+            this.lblCantidad.TabIndex = 1;
+            this.lblCantidad.Text = "Cantidad";
             // 
-            // numericUpDown1
+            // numericUpDownCantidad
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(38, 111);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 2;
+            this.numericUpDownCantidad.Location = new System.Drawing.Point(38, 111);
+            this.numericUpDownCantidad.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownCantidad.Name = "numericUpDownCantidad";
+            this.numericUpDownCantidad.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownCantidad.TabIndex = 2;
+            this.numericUpDownCantidad.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownCantidad.ValueChanged += new System.EventHandler(this.NumericUpDownCantidad_ValueChanged);
             // 
-            // label3
+            // lblPrecioFinal
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(246, 84);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.lblPrecioFinal.AutoSize = true;
+            this.lblPrecioFinal.Location = new System.Drawing.Point(234, 111);
+            this.lblPrecioFinal.Name = "lblPrecioFinal";
+            this.lblPrecioFinal.Size = new System.Drawing.Size(62, 13);
+            this.lblPrecioFinal.TabIndex = 3;
+            this.lblPrecioFinal.Text = "Precio Final";
+            this.lblPrecioFinal.Click += new System.EventHandler(this.Label3_Click);
             // 
             // label4
             // 
@@ -88,6 +101,7 @@
             this.btnVender.TabIndex = 5;
             this.btnVender.Text = "Vender";
             this.btnVender.UseVisualStyleBackColor = true;
+            this.btnVender.Click += new System.EventHandler(this.BtnVender_Click);
             // 
             // btnCancelar
             // 
@@ -97,6 +111,7 @@
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // VentasForm
             // 
@@ -106,13 +121,14 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnVender);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblPrecioFinal);
+            this.Controls.Add(this.numericUpDownCantidad);
+            this.Controls.Add(this.lblCantidad);
+            this.Controls.Add(this.lblDescripcion);
             this.Name = "VentasForm";
             this.Text = "Nueva Venta";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Load += new System.EventHandler(this.VentasForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCantidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,10 +136,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblDescripcion;
+        private System.Windows.Forms.Label lblCantidad;
+        private System.Windows.Forms.NumericUpDown numericUpDownCantidad;
+        private System.Windows.Forms.Label lblPrecioFinal;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnVender;
         private System.Windows.Forms.Button btnCancelar;
