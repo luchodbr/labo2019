@@ -46,6 +46,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbFranja = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -234,11 +235,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Panel";
             // 
+            // cmbFranja
+            // 
+            this.cmbFranja.FormattingEnabled = true;
+            this.cmbFranja.Location = new System.Drawing.Point(208, 332);
+            this.cmbFranja.Name = "cmbFranja";
+            this.cmbFranja.Size = new System.Drawing.Size(253, 21);
+            this.cmbFranja.TabIndex = 18;
+            // 
             // FrmLlamador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 450);
+            this.Controls.Add(this.cmbFranja);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -274,5 +284,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox cmbFranja;
     }
 }
