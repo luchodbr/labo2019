@@ -27,7 +27,8 @@ namespace FrmCentralita
 
         private void btnGenerarLlamada_Click(object sender, EventArgs e)
         {
-            ShowDialog(new FrmLlamador(c));
+            FrmLlamador frmLlamador = new FrmLlamador(c);
+            frmLlamador.Show();
         }
     }
 }

@@ -31,8 +31,8 @@ namespace ComiqueriaLogic
             get { return stock; }
             set
             {
-                if (stock >= 0)
-                    stock = value;
+                if (value >= 0)
+                    this.stock = value;
             }
         }
         #endregion

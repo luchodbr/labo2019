@@ -39,7 +39,7 @@
             // 
             this.btnGenerarLlamada.Location = new System.Drawing.Point(64, 12);
             this.btnGenerarLlamada.Name = "btnGenerarLlamada";
-            this.btnGenerarLlamada.Size = new System.Drawing.Size(255, 67);
+            this.btnGenerarLlamada.Size = new System.Drawing.Size(240, 56);
             this.btnGenerarLlamada.TabIndex = 0;
             this.btnGenerarLlamada.Text = "Generar Llamada";
             this.btnGenerarLlamada.UseVisualStyleBackColor = true;
@@ -47,36 +47,36 @@
             // 
             // btnFacturacionTotal
             // 
-            this.btnFacturacionTotal.Location = new System.Drawing.Point(64, 99);
+            this.btnFacturacionTotal.Location = new System.Drawing.Point(64, 89);
             this.btnFacturacionTotal.Name = "btnFacturacionTotal";
-            this.btnFacturacionTotal.Size = new System.Drawing.Size(255, 67);
+            this.btnFacturacionTotal.Size = new System.Drawing.Size(240, 53);
             this.btnFacturacionTotal.TabIndex = 1;
             this.btnFacturacionTotal.Text = "Facturacion Total";
             this.btnFacturacionTotal.UseVisualStyleBackColor = true;
             // 
             // btmFacturacionLocal
             // 
-            this.btmFacturacionLocal.Location = new System.Drawing.Point(64, 194);
+            this.btmFacturacionLocal.Location = new System.Drawing.Point(64, 165);
             this.btmFacturacionLocal.Name = "btmFacturacionLocal";
-            this.btmFacturacionLocal.Size = new System.Drawing.Size(255, 67);
+            this.btmFacturacionLocal.Size = new System.Drawing.Size(240, 52);
             this.btmFacturacionLocal.TabIndex = 2;
             this.btmFacturacionLocal.Text = "Facturacion Local";
             this.btmFacturacionLocal.UseVisualStyleBackColor = true;
             // 
             // btnFacturacionProvincial
             // 
-            this.btnFacturacionProvincial.Location = new System.Drawing.Point(64, 281);
+            this.btnFacturacionProvincial.Location = new System.Drawing.Point(64, 233);
             this.btnFacturacionProvincial.Name = "btnFacturacionProvincial";
-            this.btnFacturacionProvincial.Size = new System.Drawing.Size(255, 67);
+            this.btnFacturacionProvincial.Size = new System.Drawing.Size(240, 54);
             this.btnFacturacionProvincial.TabIndex = 3;
             this.btnFacturacionProvincial.Text = "FacturacionProvincial";
             this.btnFacturacionProvincial.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(64, 365);
+            this.btnSalir.Location = new System.Drawing.Point(64, 303);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(255, 67);
+            this.btnSalir.Size = new System.Drawing.Size(240, 57);
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -85,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 435);
+            this.ClientSize = new System.Drawing.Size(390, 388);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnFacturacionProvincial);
             this.Controls.Add(this.btmFacturacionLocal);

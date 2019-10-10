@@ -19,18 +19,18 @@ namespace FrmCentralita
             InitializeComponent();
         }
 
-        public FrmLlamador(Centralita cen)
+        public FrmLlamador(Centralita cen) : this()
         {
             c = cen;
         }
         private void FrmLlamador_Load(object sender, EventArgs e)
         {
-
+            cmbFranja.DataSource = Enum.GetValues(typeof(Franjas));
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "1";
             }
@@ -41,7 +41,7 @@ namespace FrmCentralita
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "2";
             }
@@ -51,7 +51,7 @@ namespace FrmCentralita
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "3";
             }
@@ -61,7 +61,7 @@ namespace FrmCentralita
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "4";
             }
@@ -71,7 +71,7 @@ namespace FrmCentralita
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "5";
             }
@@ -81,7 +81,7 @@ namespace FrmCentralita
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "6";
             }
@@ -101,7 +101,7 @@ namespace FrmCentralita
 
         private void button8_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "8";
             }
@@ -121,7 +121,7 @@ namespace FrmCentralita
 
         private void button10_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "*";
             }
@@ -131,7 +131,7 @@ namespace FrmCentralita
 
         private void button11_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "0";
             }
@@ -141,7 +141,7 @@ namespace FrmCentralita
 
         private void button12_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "Nro Duracion")
+            if (this.textBox1.Text == "Nro Destino")
             {
                 this.textBox1.Text = "#";
             }
